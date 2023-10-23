@@ -64,7 +64,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Delete releases and workflows runs
-        uses: ophub/delete-releases-workflows@main
+        uses: jinglei-dot/delete-releases-workflows@main
         with:
           delete_releases: false
           delete_tags: false
