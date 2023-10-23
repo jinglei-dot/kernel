@@ -81,6 +81,7 @@ on:
         type: choice
         options:
           - -beta
+          - -jinglei
           - -yourname
 
 env:
