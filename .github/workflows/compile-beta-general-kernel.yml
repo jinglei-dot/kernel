@@ -17,6 +17,7 @@ on:
         type: choice
         options:
           - unifreq
+          - jinglei-dot
       kernel_version:
         description: "Select kernel version"
         required: false
@@ -115,7 +116,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Compile the kernel [ ${{ inputs.kernel_version }} ]
-        uses: ophub/amlogic-s9xxx-armbian@main
+        uses: jinglei-dot/amlogic-s9xxx-armbian@main
         if: ${{ steps.init.outputs.status }} == 'success' && !cancelled()
         with:
           build_target: kernel
