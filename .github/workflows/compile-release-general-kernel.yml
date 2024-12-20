@@ -16,7 +16,7 @@ on:
         default: "kernel_source"
         type: choice
         options:
-         - bingkuomiao
+          - bingkuomiao
           - unifreq
           - codesnas
       kernel_version:
