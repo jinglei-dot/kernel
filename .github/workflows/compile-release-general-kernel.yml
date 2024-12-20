@@ -74,6 +74,7 @@ on:
         default: "-bingkuomiao"
         type: choice
         options:
+          - -bingkuomiao
           - -ophub
           - -happy-new-year
           - -dragon-boat-festival
