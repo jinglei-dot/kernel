@@ -40,7 +40,7 @@ on:
       kernel_package:
         description: "Select compile package list"
         required: false
-        default: "all"
+        default: "dtbs"
         type: choice
         options:
           - all
@@ -61,7 +61,7 @@ on:
       compress_format:
         description: "Set the initrd compression format"
         required: false
-        default: "xz"
+        default: "gzip"
         type: choice
         options:
           - xz
@@ -71,7 +71,7 @@ on:
       kernel_sign:
         description: "Set the kernel custom signature"
         required: false
-        default: "-ophub"
+        default: "-bingkuomiao"
         type: choice
         options:
           - -ophub
