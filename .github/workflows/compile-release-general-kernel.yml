@@ -18,7 +18,7 @@ on:
         options:
           - unifreq
           - codesnas
-          - kernel_source
+          - bingkuomiao
       kernel_version:
         description: "Select kernel version"
         required: false
